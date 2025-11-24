@@ -11,4 +11,13 @@ This repo is a companion to the Ettus B200-based RF detection rig:
 ```text
 https://github.com/corbinneville1/RF-Detection-System
 
+## Dependencies (Debian / Trixie)
+
+Tested on Debian Trixie with Python 3.
+
+Install system packages:
+
+```bash
+sudo apt update
+sudo apt install rtl-sdr espeak-ng alsa-utils
 
